@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:writable_book"
+    },
+    {
+      "item": "unicapmod:pena"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "unicapmod:ra_item"
+  }
+}

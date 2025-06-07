@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "unicapmod:item/titanium_axe"
+  }
+}

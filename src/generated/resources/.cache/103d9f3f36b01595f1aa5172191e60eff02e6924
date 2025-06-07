@@ -1,0 +1,4 @@
+// 1.21.1	2025-05-27T17:46:07.1181609	Registries
+b4fa6f85dd10b66bcf79c74dc1857b5912566572 data/unicapmod/forge/biome_modifier/add_titanium_ore.json
+6fcd5666a3644dff3680b13e433c886af52097df data/unicapmod/worldgen/configured_feature/overworld_titanium_ore.json
+60b1922081849359b2a209fe84abe128063ced0c data/unicapmod/worldgen/placed_feature/overworld_titanium_ore_placed.json

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": {
+      "item": "unicapmod:titanium_ingot"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "T T",
+    "T T"
+  ],
+  "result": {
+    "count": 1,
+    "id": "unicapmod:titanium_leggings"
+  }
+}

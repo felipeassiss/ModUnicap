@@ -1,0 +1,23 @@
+[27mai.2025 22:18:26.350] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\felip\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, unicapmod, --all, --output, C:\Users\felip\Downloads\forge-1.21.1-52.1.0-mdk\src\generated\resources, --existing, C:\Users\felip\Downloads\forge-1.21.1-52.1.0-mdk\src\main\resources]
+[27mai.2025 22:18:26.354] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[27mai.2025 22:18:26.355] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.6 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[27mai.2025 22:18:26.520] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[27mai.2025 22:18:26.686] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/felip/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[27mai.2025 22:18:28.118] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[27mai.2025 22:18:29.350] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\felip\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, unicapmod, --all, --output, C:\Users\felip\Downloads\forge-1.21.1-52.1.0-mdk\src\generated\resources, --existing, C:\Users\felip\Downloads\forge-1.21.1-52.1.0-mdk\src\main\resources]
+[27mai.2025 22:18:36.551] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.1.0, for MC 1.21.1 with MCP 20240808.132146
+[27mai.2025 22:18:36.552] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.1.0 Initialized
+[27mai.2025 22:18:36.590] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[27mai.2025 22:18:37.086] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [unicapmod]
+[27mai.2025 22:18:37.192] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/felip/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[27mai.2025 22:18:37.193] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/felip/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.1.0_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[27mai.2025 22:18:37.415] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id unicapmod
+[27mai.2025 22:18:37.690] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id unicapmod finished after 274 ms
+[27mai.2025 22:18:37.691] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[27mai.2025 22:18:37.719] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 28 ms
+[27mai.2025 22:18:37.720] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[27mai.2025 22:18:37.848] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 127 ms
+[27mai.2025 22:18:37.848] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[27mai.2025 22:18:37.907] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 58 ms
+[27mai.2025 22:18:37.908] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 492 ms
+[27mai.2025 22:18:37.916] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 30, old count: 30, new count: 31, removed stale: 0, written: 0
