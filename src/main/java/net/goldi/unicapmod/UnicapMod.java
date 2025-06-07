@@ -22,8 +22,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-
-import java.util.Random; // Import para Random
+import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 
 @Mod(UnicapMod.MOD_ID)
