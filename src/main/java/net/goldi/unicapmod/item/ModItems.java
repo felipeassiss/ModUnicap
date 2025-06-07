@@ -19,7 +19,7 @@ public class ModItems {
     public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot",
             () -> new Item(new Item.Properties()));
 
-    // ITEM R.A. (RAItem está no mesmo pacote, não precisa de import específico)
+    // ITEM R.A
     public static final RegistryObject<Item> RA_ITEM = ITEMS.register("ra_item",
             () -> new RAItem(new Item.Properties().stacksTo(1)));
 
