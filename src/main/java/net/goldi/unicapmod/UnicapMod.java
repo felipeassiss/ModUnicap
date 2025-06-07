@@ -8,13 +8,13 @@ import net.goldi.unicapmod.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
-import net.minecraft.world.entity.item.ItemEntity; // Import para ItemEntity
-import net.minecraft.world.entity.animal.Chicken; // Import para Chicken
-import net.minecraft.world.item.ItemStack; // Import para ItemStack
+import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.animal.Chicken;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
-import net.minecraftforge.event.entity.living.LivingDropsEvent; // Import para LivingDropsEvent
+import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
