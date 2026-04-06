@@ -1,48 +1,54 @@
-# UnicapMod:
+# UnicapMod ⛏️
 
-Repositório oficial do projeto UnicapMod. Este mod para Minecraft foi desenvolvido como parte da nota do 2GQ da disciplina de Programação Orientada a Objetos e tem como objetivo explorar os conceitos teóricos de JAVA vistos em sala de maneira prática.
-## 📜 Sobre o Projeto
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen.svg)](https://www.minecraft.net/)
+[![Forge](https://img.shields.io/badge/Forge-1.21.1-red.svg)](https://files.minecraftforge.net/)
+[![Java](https://img.shields.io/badge/Java-OOP-blue.svg)](https://www.java.com/)
 
-O UnicapMod visa investigar e implementar a adição de um novo tier de mineração e equipamentos, a criação de um item interativo com GUI customizada, a exploração de mecânicas de drop customizadas e a utilização do sistema de geração de dados do Forge para recursos, receitas e geração de mundo, aplicando conceitos de design de jogos para expandir a experiência vanilla do Minecraft.
+Official repository for the **UnicapMod** project. This Minecraft mod was developed as a practical assignment (2GQ grade) for the **Object-Oriented Programming (OOP)** course, serving as a hands-on approach to exploring theoretical Java concepts.
 
-As funcionalidades atuais demonstram:
+## 📜 About the Project
 
-* **Novos Recursos Minerais:** Introdução do minério de Titânio, com sua própria lógica de geração no mundo e propriedades de extração.
-* **Sistema de Equipamentos:** Desenvolvimento de um conjunto completo de armaduras e ferramentas de Titânio, com atributos e balanceamento projetados para serem superiores aos materiais existentes no jogo base (como Netherita).
-* **Itens com Interface Customizada:** Implementação do item "R.A." (Registro Acadêmico), que, ao ser utilizado, exibe uma Interface Gráfica do Usuário (GUI) customizada com informações do jogador.
-* **Modificação de Loot de Entidades:** Demonstração de como alterar os drops de entidades existentes no jogo, como a adição da "Pena Mágica" ao loot de galinhas.
+**UnicapMod** expands the vanilla Minecraft experience by blending theoretical OOP concepts with practical game design. The project investigates and implements a brand-new mining tier, custom interactive items with unique GUIs, and modified drop mechanics. It also utilizes Forge's data generation system to seamlessly integrate new resources, recipes, and world generation.
 
-## ✨ Funcionalidades Implementadas
+The current version demonstrates:
+* **New Mineral Resources:** Introduction of Titanium Ore, featuring custom world-generation logic and extraction properties.
+* **Advanced Equipment System:** A complete set of Titanium armor and tools, meticulously balanced with attributes designed to surpass base-game endgame materials like Netherite.
+* **Custom GUI Items:** Implementation of the "R.A." (Academic Registry / Student ID) item, which triggers a custom Graphical User Interface displaying dynamic player data.
+* **Entity Loot Modification:** Demonstration of custom drop mechanics, successfully adding the "Magic Feather" to the vanilla Chicken loot table.
 
-* **Minério de Titânio e Processamento:**
-    * **Geração:** O Titânio é gerado nas camadas profundas do Overworld, com uma taxa de aparição e tamanho de veio configurados para se assemelhar à raridade do diamante, com um máximo de 3 blocos por veio.
-    * **Extração:** Requer uma picareta de [**Netherita ou Titânio**] para ser minerado e dropar o item "Raw Titanium". O tempo de quebra foi balanceado para que, com uma Picareta de Netherita, seja comparável ao tempo de quebrar Obsidiana com uma Picareta de Diamante. A Picareta de Titânio possui maior eficiência na extração deste minério.
-    * **Refino:** O "Raw Titanium" pode ser fundido em uma Fornalha (Furnace) ou Alto-Forno (Blast Furnace) para produzir "Titanium Ingots".
-* **Conjunto de Equipamentos de Titânio:**
-    * **Ferramentas:** Espada, Picareta, Machado, Pá e Enxada fabricadas com Lingotes de Titânio. Projetadas para exceder as de Netherita em atributos como durabilidade, velocidade de mineração e dano.
-    * **Armadura:** Conjunto completo (Capacete, Peitoral, Calças, Botas) fabricado com Lingotes de Titânio, oferecendo proteção e durabilidade superiores.
-* **Itens Especiais e GUI:**
-    * **Pena Mágica (Magic Feather):** Um item com 5% de chance de ser dropado por galinhas. Utilizado na receita do item "R.A.".
-    * **Item R.A. (Registro Acadêmico):**
-        * Obtido através de uma receita de fabricação combinando um Livro com Pena e uma Pena Mágica.
-        * Ao ser utilizado pelo jogador (clique com o botão direito), uma GUI customizada é exibida.
-        * A GUI apresenta:
-            * Nome do jogador.
-            * Um espaço reservado para uma representação visual.
-            * Um número de matrícula gerado dinamicamente.
-            * O campo "Curso: Ciência da Computação".
+---
 
-![Image](https://github.com/user-attachments/assets/8261dd85-c927-4311-ab41-ae2d8aa95918)
+## ✨ Key Features
 
+### 💎 Titanium Ore & Processing
+* **Generation:** Titanium generates in the deep layers of the Overworld. Its spawn rate and vein size (maximum of 3 blocks per vein) are scaled to mirror the rarity of Diamonds.
+* **Extraction:** Mining Titanium requires a **Netherite or Titanium Pickaxe** and drops "Raw Titanium". The breaking time is deliberately balanced: using a Netherite Pickaxe on Titanium feels comparable to mining Obsidian with a Diamond Pickaxe. The Titanium Pickaxe offers the highest efficiency for this task.
+* **Refining:** "Raw Titanium" can be smelted in a Furnace or Blast Furnace to produce "Titanium Ingots".
 
+### ⚔️ Titanium Equipment Set
+* **Tools:** Sword, Pickaxe, Axe, Shovel, and Hoe crafted from Titanium Ingots. These are designed to exceed Netherite tools in durability, mining speed, and damage.
+* **Armor:** A full defensive set (Helmet, Chestplate, Leggings, Boots) crafted from Titanium Ingots, offering unparalleled protection and durability.
 
-## 🛠️ Instruções de Instalação e Uso
+### 🎒 Special Items & Custom GUI
+* **Magic Feather:** A rare crafting component with a 5% chance to drop from Chickens.
+* **R.A. Item (Academic Registry):**
+  * **Crafting:** Obtained by combining a *Book and Quill* with a *Magic Feather*.
+  * **Interaction:** Right-clicking the item opens a custom GUI.
+  * **GUI Display:** Features the player's name, a visual placeholder, a dynamically generated student ID number, and the field "Course: Computer Science" (*Ciência da Computação*).
 
-1.  **Pré-requisitos:** É necessário ter o [Minecraft Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) instalado para a versão **1.21.1** do Minecraft (ou a versão para a qual o mod foi compilado).
-2.  **Download:** Baixe o arquivo `.jar` da versão mais recente do UnicapMod neste repositório.
-3.  **Instalação:** Coloque o arquivo `.jar` baixado na pasta `mods` localizada no diretório de instalação do seu Minecraft (comumente `%appdata%\.minecraft\mods` no Windows).
-4.  **Execução:** Inicie o Minecraft utilizando o perfil do Forge correspondente. O mod deverá ser carregado automaticamente.
+![UnicapMod GUI Preview](https://github.com/user-attachments/assets/8261dd85-c927-4311-ab41-ae2d8aa95918)
 
-## 🤝 Contribuições
+---
 
-Este projeto foi desenvolvido por Felipe Assis e Júlio César.
+## 🛠️ Installation & Usage
+
+1. **Prerequisites:** Ensure you have [Minecraft Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) installed for Minecraft version **1.21.1** (or the exact version the mod was compiled for).
+2. **Download:** Grab the latest `.jar` release of UnicapMod from this repository.
+3. **Install:** Place the downloaded `.jar` file into your Minecraft `mods` folder (usually found at `%appdata%\.minecraft\mods` on Windows).
+4. **Launch:** Open the Minecraft Launcher, select your Forge profile, and hit play. The mod will load automatically!
+
+---
+
+## 🤝 Credits
+
+This project was developed by **Felipe Assis** and **Júlio César**.
