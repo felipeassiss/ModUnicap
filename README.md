@@ -2,7 +2,7 @@
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen.svg)](https://www.minecraft.net/)
 [![Forge](https://img.shields.io/badge/Forge-1.21.1-red.svg)](https://files.minecraftforge.net/)
-[![Java](https://img.shields.io/badge/Java-OOP-blue.svg)](https://www.java.com/)
+[![Java](https://img.shields.io/badge/Java-JDK-orange.svg)](https://www.java.com/)
 
 Official repository for the **UnicapMod** project. This Minecraft mod was developed as a practical assignment (2GQ grade) for the **Object-Oriented Programming (OOP)** course, serving as a hands-on approach to exploring theoretical Java concepts.
 
